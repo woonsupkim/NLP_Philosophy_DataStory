@@ -41,3 +41,11 @@ def horizontal_bar_chart(df, color):
     )
     return trace
 
+## Word count function
+def count_words(string):
+    string1 = string.strip()
+    count = 1
+    for i in string1:
+        if i == " ":
+            count = count + 1
+    return count
