@@ -26,6 +26,7 @@ def generate_ngrams(text, n_gram=1):
     ngrams = zip(*[token[i:] for i in range(n_gram)])
     return [" ".join(ngram) for ngram in ngrams]
 
+
 ## custom function for horizontal bar chart ##
 def horizontal_bar_chart(df, color):
     import plotly.graph_objs as go
@@ -40,6 +41,7 @@ def horizontal_bar_chart(df, color):
         ),
     )
     return trace
+
 
 ## Word count function
 def count_words(string):
