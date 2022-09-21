@@ -1,4 +1,4 @@
-# ADS Project 1:  R Notebook on the history of philosophy
+# ADS Project 1:  Python Notebook on the history of philosophy
 
 ### Code dev/lib Folder
 
